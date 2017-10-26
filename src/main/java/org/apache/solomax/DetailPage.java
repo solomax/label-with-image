@@ -10,7 +10,7 @@ public class DetailPage extends WebPage {
 	public DetailPage(final PageParameters parameters) {
 		super(parameters);
 
-		String htmlWithImgTag = "some DETAIL text at the beginning <img src=\"/images/icon/add.png\">   something text at the end";
+		String htmlWithImgTag = "some DETAIL text at the beginning <img src=\"../../images/icon/add.png\">   something text at the end";
 		add(new Label("message", htmlWithImgTag).setEscapeModelStrings(false));
 	}
 }
